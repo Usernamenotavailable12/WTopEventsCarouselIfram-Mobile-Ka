@@ -1,0 +1,76 @@
+<head>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+</head>
+<div id="wln"></div>
+<script src="https://sb2wsdk-altenar2.biahosted.com/altenarWSDK.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+      window.altenarWSDK.init({
+          integration: 'ambassadoribet',
+          culture: 'en-GB'
+      });
+      window.WLN = window.altenarWSDK.addWidget({
+          widget: 'WTopEventsCarousel',
+          props: {
+              variants: {
+                  BannerEventBox: 5,
+                  OddBox: 7,
+                  OddChangeIndicator: 2,
+              },
+              enableExpansion: false,
+              expand: false,
+              scrollerControls: 3,
+              competitorLogoURL: "https://usernamenotavailable12.github.io/altenar_logo/{0}.png",
+              slideWidth: 200,
+              scrollerControls : 1,
+              showHeader: false,
+              showBookedLiveIndicator: true,
+              showScorePreview: true,
+              showLiveEvents: true,
+              showLiveIndicator: true,
+              imageType: 0,
+              iconOverride: {
+                  iso: {},
+                  sport: {},
+                  category: {},
+                  championship: {
+                      2995: "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/e53d1097-3c65-40af-af90-7f9a586b7c0b/euroleague-basketball-logo-2.svg",
+                      3031: "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/0c4b32b2-a36f-4b84-85b6-2fd58562f3f4/UEFA%20Euro%202024%20Germany.svg",
+                      16808: "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/b6fae6bf-6b17-43c8-88ba-7fc45ef5f45d/Uefa%20Champions%20League.svg",
+                      16809: "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/fff07a26-db7f-445a-ab63-925d62a722eb/Uefa%20Europa%20Conference%20League.svg",
+                      31608: "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/d7ac85e4-2c6c-466c-b486-cb83efcf69c9/Uefa%20Europa%20League.svg",
+                      3147: "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/26f463da-9197-4c1b-991a-10d84fbae9c7/Copa%20America%202024%20Logo.svg"
+                  }
+              },
+              backgroundOverride: {
+                  sport: {
+                        66: "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/3f2b10a9-8c65-47b2-9d39-0e833145bcc5/background-euro-2024-purple-2.png",
+                        67: "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/3f2b10a9-8c65-47b2-9d39-0e833145bcc5/background-euro-2024-purple-2.png",
+                        68: "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/3f2b10a9-8c65-47b2-9d39-0e833145bcc5/background-euro-2024-purple-2.png",
+                        69: "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/3f2b10a9-8c65-47b2-9d39-0e833145bcc5/background-euro-2024-purple-2.png",
+                        70: "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/3f2b10a9-8c65-47b2-9d39-0e833145bcc5/background-euro-2024-purple-2.png",
+                        73: "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/3f2b10a9-8c65-47b2-9d39-0e833145bcc5/background-euro-2024-purple-2.png",
+                        75: "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/3f2b10a9-8c65-47b2-9d39-0e833145bcc5/background-euro-2024-purple-2.png",
+                        76: "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/3f2b10a9-8c65-47b2-9d39-0e833145bcc5/background-euro-2024-purple-2.png",
+                        84: "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/3f2b10a9-8c65-47b2-9d39-0e833145bcc5/background-euro-2024-purple-2.png",
+                        102: "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/3f2b10a9-8c65-47b2-9d39-0e833145bcc5/background-euro-2024-purple-2.png",
+                        145: "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/3f2b10a9-8c65-47b2-9d39-0e833145bcc5/background-euro-2024-purple-2.png"
+                  },
+                  championship: {
+                      3031: "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/3f2b10a9-8c65-47b2-9d39-0e833145bcc5/background-euro-2024-purple-2.png",
+                      16808: "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/a36bdeb5-3698-4874-8c5b-7b018366926b/background-hampions-league-2.png",
+                      2980: "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/49bd6b2d-57a2-4f67-9627-8eca661251a6/background-nba-2.png",
+                      3147: "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/583fc458-53c4-494f-a7f7-1bdece2dfc34/background-copa-2024-purple-2.png"
+                  },
+                  event: {
+                      9357930: "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/c82544a8-4506-44a8-8796-ee1896663f2b/background-tyson-vs-paul.png"
+                  }
+              }
+          },
+          container: document.getElementById('wln')
+      });
+  }
+  );
+</script>
